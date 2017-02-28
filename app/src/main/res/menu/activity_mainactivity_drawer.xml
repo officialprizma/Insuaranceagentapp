@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Clients" />
+        <item
+            android:id="@+id/nav_impexp"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Import/Export" />
+        <item
+            android:id="@+id/nav_reminders"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Reminders" />
+        <item
+            android:id="@+id/nav_dateconverter"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Date Converter" />
+    </group>
+
+    <item android:title="App Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_Setting"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Setting" />
+            <item
+                android:id="@+id/nav_Aboutus"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
